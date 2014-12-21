@@ -14,3 +14,13 @@ suites:
       - recipe[cookies::default]
     attributes:
     data_bags_path: "test/integration/data_bags"
+  - name: create
+    run_list:
+      - recipe[cookies::create]
+    attributes:
+    data_bags_path: "test/integration/data_bags"
+  - name: eat
+    run_list:
+      - recipe[cookies::eat]
+    attributes:
+    data_bags_path: "test/integration/data_bags"
