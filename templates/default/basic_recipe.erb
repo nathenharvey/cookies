@@ -1,0 +1,10 @@
+Recipe: <%= @name %> cookies
+ 
+<% @ingredients.each do |ingredient| %>
+<%= ingredient %>
+<% end %>
+ 
+Combine wet ingredients.
+Combine dry ingredients.
+ 
+Bake at <%= @temperature %>F for <%= @bake_time %> minutes.
