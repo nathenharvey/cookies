@@ -1,6 +1,8 @@
 actions :create
 
 attribute :name, :name_attribute => true
-attribute :bake_time
-attribute :temperature
-attribute :ingredients
+# bake time in minutes
+attribute :bake_time, :kind_of => Integer
+# temperature in F
+attribute :temperature, :kind_of => Integer
+attribute :ingredients, :kind_of => Array
