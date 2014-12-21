@@ -1,4 +1,4 @@
-actions :create
+actions :create, :eat
 
 attribute :name, :name_attribute => true
 # bake time in minutes
